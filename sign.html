@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+    .name1{
+        font-size:25px;
+        margin-top: 16px;
+        
+
+    }
+    input{
+        width: 200px;
+        height: 25px;
+    }
+    button{
+        font-size: larger;
+        margin-top: 16px;
+        text-align: center;
+        
+    }
+    button:active{
+        background-color: rgb(21, 191, 191);
+        transition: 17px 2s ease-in-out 0.2s;
+    }
+.logo2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 198px;
+}
+    .logo{
+        background-image: url("amazon_logo.png");
+        background-color: black;
+        background-size: cover;
+        height: 60px;
+        width: 100px;
+    
+    }
+    .copyright{
+        background-color: black;
+        height: 20px;
+        color: white;
+        font-size: 0.9rem;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gen2 {
+        margin-left: 10px;
+        width: 10px;
+        display: flex;
+
+    }
+
+    
+    </style>
+</head>
+<body>
+    
+</body>
+</html><h1>Sign in </h1>
+<form >
+    <script defer src ="script.js"></script>
+
+ <fieldset>
+    <legend>Personal Information</legend>
+    <div class="name1"><label for="name">Name:</label>
+        <input type="text" id="name" name="Name" placeholder="enterr your name"></div>
+    <div class="name1">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="Mail" placeholder="enter your mail">
+    </div>
+    <div class="name1">
+        <label for="phone">Phone No.:</label>
+        <input type="tel" id="phone" name="phoneno" placeholder="enter your number">
+    </div>
+    <div class="name1">
+        <div class="gen3">
+            <span>Gender:</span>
+            <div class="gen2">
+               <label for="gender1">female</label>
+              <input type="radio" id="gender1">
+               <label for="gender">male</label>
+              <input type="radio" id="gender">
+              <label for="gender2">other</label>
+              <input type="radio" id="gender2"></div>
+        </div>
+       
+    </div>
+    <div class="name1">
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" placeholder="dd/mm/yy">
+    </div>
+ </fieldset>
+ <fieldset>
+    <legend>Address</legend>
+    <div class="name1">
+        <div class="name1">
+            <label for="pin">PIN Code :</label>
+            <input type="number" id="pin" placeholder="enter your pin code">
+        </div>
+        <label for="area">Local /Area / Street /Colony:</label>
+        <input type="text"  id="area" placeholder="enter here" >
+    </div>
+    <div class="name1">
+        <label for="no.">House no./ Building no.</label>
+        <input type="text" id="no." placeholder="enter here">
+    </div>
+    <div class="name1">
+        <label for="landmark">Landmark/Nearby/Famous Place</label>
+        <input type="text" id="landmark" placeholder="enter here">
+    </div>
+ </fieldset>
+  <button> Sumbit</button>
+    <div class="logo2">
+        <div class="logo"></div>
+    </div>
+    <div class="copyright"><p>© 1996-2023, Amazon.com, Inc. or its affiliates</p></div>
+   
+    
+
+</form>
